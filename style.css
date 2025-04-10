@@ -37,3 +37,19 @@ button, input, textarea {
     --secondary-color: #6c757d;
     --font-size-base: 16px;
 }
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#rightDiv {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
