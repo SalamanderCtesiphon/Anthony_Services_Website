@@ -1,0 +1,39 @@
+/* Universal Defaults for CSS Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif; /* Set a default font */
+    line-height: 1.6; /* Improve readability */
+    color: #333; /* Default text color */
+    background-color: #f9f9f9; /* Default background color */
+}
+
+img, video {
+    max-width: 100%;
+    height: auto; /* Ensure media is responsive */
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color */
+}
+
+ul, ol {
+    list-style: none; /* Remove default list styles */
+}
+
+button, input, textarea {
+    font-family: inherit; /* Ensure consistent font */
+}
+
+:root {
+    --primary-color: #007bff; /* Example custom property */
+    --secondary-color: #6c757d;
+    --font-size-base: 16px;
+}
