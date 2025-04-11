@@ -51,10 +51,16 @@
  
  .first-row {
     display: flex;
-    justify-content: space-around;
-    flex: 4 1 auto;
-    background-color: #28783f;
+    justify-content: center;
     color: #f9faf8;
+    background-image: url('images/pexels-polilla68-1172737.jpg');
+    background-size: cover;
+    background-position: center;
+ }
+
+ img {
+    max-width: 100%;
+    height: auto;
  }
  
  .left-item {
@@ -108,13 +114,6 @@
     width: 200px;
     border-radius: 12px;
     background-color: grey;
- }
-
- img {
-    height: 100%;
-    width: 100%;
-    border-radius: 12px;
-    object-fit: contain;
  }
 
  .second-row {
