@@ -10,7 +10,7 @@
  
  
  body {
-    font-family: roboto;
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,11 +18,12 @@
  }
  
  .header {
-    background-color: #1f2937;
+    background-color: #123f1f;
     color: #f9faf8;
     display: flex;
     justify-content: space-around;
     flex: 1 1 auto;
+    padding: 10px;
  }
  
  .header .logo {
@@ -52,7 +53,7 @@
     display: flex;
     justify-content: space-around;
     flex: 4 1 auto;
-    background-color: #1f2937;
+    background-color: #28783f;
     color: #f9faf8;
  }
  
@@ -103,10 +104,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 200px;
+    border-radius: 12px;
     background-color: grey;
  }
+
+ img {
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: contain;
+ }
+
  .second-row {
     display: flex;
     flex-direction: column;
@@ -126,7 +136,8 @@
  .second-row-items ul {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    width: 75%;
+    justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 100px;
