@@ -78,20 +78,13 @@
         </ul>
     </div>
     <div class="fourth-row">
-        <!-- Sample HTML Form -->
-        <form action="swbrookshire@gmail.com"
-                method="POST"
-                enctype="multipart/form-data"
-                name="EmailForm">
-            Name:<br>
-            <input type="text" size="19" name="Contact-Name"><br><br>
-            Email:<br>
-            <input type="email" name="Contact-Email"><br><br> 
-            Message:<br> 
-            <textarea name="Contact-Message" rows="6″ cols="20″>
-            </textarea><br><br> 
-            <button type="submit" value="Submit">Send</button>
-        </form>  
+        <form action="submit.php" method="POST">
+            <h1>Contact us</h1>
+            <p>Name</p> <input type="text" name="name" class="input">
+            <p>Email</p> <input type="email" name="email" class="input">
+            <p>Message</p><textarea name="message" rows="6" cols="25" class="input"></textarea><br />
+            <input type="submit" value="Send">
+        </form>
     </div>
     <div class="footer">
         <div class="footer-text">
