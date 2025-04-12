@@ -12,7 +12,7 @@ html {
  
  
 body {
-   font-family: Arial, sans-serif;
+   font-family: roboto;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -32,7 +32,7 @@ body {
 }
  
 .header .logo {
-   font-size: 24px;
+   font-size: 20px;
    display: flex;
    align-items: center;
 }
@@ -74,6 +74,7 @@ body {
    background-position: center;
    padding-top: 100px;
    padding-bottom: 100px;
+   font-family: merriweather;
 }
 
 .first-row .bold-text {
@@ -151,7 +152,7 @@ img {
  }
  
  .second-row-header {
-    font-size: 36px;
+    font-size: 30px;
     color: #1f2937;
     font-weight: bolder;
     margin: 40px;
@@ -208,7 +209,7 @@ p {
  }
 
  .third-row-header {
-   font-size: 36px;
+   font-size: 30px;
    color: #1f2937;
    font-weight: bolder;
    margin-bottom: 20px;
@@ -256,7 +257,11 @@ p {
     justify-content: space-around;
     flex: 3 1 auto;
  }
- 
+
+ .fourth-row p {
+   padding-bottom: 10px;
+ }
+
  .fourth-row-box {
     height: 150px;
     width: 800px;
@@ -308,6 +313,8 @@ p {
  
  h1 {
  text-align:center;
+ font-size: 30px;
+ padding-bottom: 20px;
  }
  
  .input {
