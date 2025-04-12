@@ -212,12 +212,6 @@ p {
 
  .third-row ul {
    width: 25%;
-   display: flex;
-   flex-direction: column;
-   justify-content: left;
-   align-items: center;
-   list-style: none;
-   text-align: left;
  }
 
  @media (max-width: 600px) {
@@ -231,6 +225,8 @@ p {
    text-align: left;
    width: 100%;
  }
+
+ 
  
  .quote {
     display: flex;
@@ -317,7 +313,7 @@ p {
    border-radius: 5px;
    line-height: 22px;
    background-color: transparent;
-   border:2px solid #CC6666;
+   border:2px solid #29783f;
    transition: all 0.3s;
    padding: 13px;
    margin-bottom: 15px;
@@ -326,7 +322,7 @@ p {
    outline:0;
  }
  
- .input:focus { border:2px solid #CC4949; }
+ .input:focus { border:2px solid #29783f; }
  
  textarea {
    height: 150px;
@@ -337,7 +333,7 @@ p {
  [type="submit"] {
    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
    width: 100%;
-   background:#CC6666;
+   background:#29783f;
    border-radius:5px;
    border:0;
    cursor:pointer;
