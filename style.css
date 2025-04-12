@@ -60,12 +60,21 @@
  
  .first-row {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
     color: #f9faf8;
     background-image: url('images/pexels-polilla68-1172737.jpg');
     background-size: cover;
     background-position: center;
  }
+ 
+ .first-row .bold-text {
+   font-size: 48px;
+   font-weight: bolder;
+   text-align: center;
+}
 
  /* Ensure the image fits its container */
 img {
@@ -74,34 +83,7 @@ img {
     object-fit: cover; /* Ensures the image scales and crops to fill the container without distortion */
     border-radius: 8px;
 }
- 
- .left-item {
-    display: flex;
-    height: auto;
-    width: 320px;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 2px;
-    margin-top: 100px;
-    margin-bottom: 100px;
- }
- 
- .first-row .left-item .bold-text {
-    font-size: 48px;
-    font-weight: bolder;
- }
- 
- .left-item {
-    font-size: 18px;
-    color: #e5e7eb;
- }
 
- .bold-text {
-    font-weight: bold;
-    text-align: center;
- }
- 
  .button-box {
     display: flex;
     background-color: #3882f6;
