@@ -20,6 +20,10 @@ body {
    padding: 0px;
    margin: 0px;
 }
+
+a {
+   text-decoration: none;
+}
  
 .header {
    background-color: #253d2c;
