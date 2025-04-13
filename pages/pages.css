@@ -38,8 +38,7 @@ body {
     background-image: url('../images/pexels-polilla68-1172737.jpg');
     background-size: cover;
     background-position: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    height: 40vh;
     font-family: merriweather;
 }
 
@@ -53,6 +52,28 @@ body {
 
 ul {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    border: 1px solid #BE5103;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+a:hover {
+    background-color: #BE5103;
+    color: white;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
 .footer {
