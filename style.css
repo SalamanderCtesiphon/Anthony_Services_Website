@@ -22,7 +22,7 @@ body {
 }
  
 .header {
-   background-color: #123f1f;
+   background-color: #253d2c;
    color: #f9faf8;
    display: flex;
    justify-content: space-around;
@@ -112,16 +112,6 @@ img {
     object-fit: cover; /* Ensures the image scales and crops to fill the container without distortion */
     border-radius: 8px;
 }
-
- .button-box {
-    display: flex;
-    background-color: #3882f6;
-    padding: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 6px;
-    margin-top: 6px;
- }
  
  .sign-up-button {
     text-decoration: none;
@@ -149,6 +139,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top: 3px solid #660033;
  }
  
  .second-row-header {
@@ -164,6 +155,7 @@ img {
    flex-direction: row;
    justify-content: center;
    align-items: center;
+   border-bottom: 3px solid #68BA7F;
 }
 
 @media (max-width: 600px) {
@@ -190,7 +182,7 @@ p {
  
  .icon .box {
     background-color: white;
-    border: 3px solid #BE5103;
+    border: 3px solid #D4AF37;
     height: 200px;
     width: 160px;
     border-radius: 12px;
@@ -256,6 +248,7 @@ p {
     display: flex;
     justify-content: space-around;
     flex: 3 1 auto;
+    border-top: 3px solid #68BA7F;
  }
 
  .fourth-row p {
@@ -293,7 +286,7 @@ p {
  
  }
  .footer {
-    background-color: #123f1f;
+    background-color: #253d2c;
     color: #f9faf8;
     display: flex;
     justify-content: space-around;
@@ -345,7 +338,7 @@ p {
  [type="submit"] {
    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
    width: 100%;
-   background:#29783f;
+   background:#68BA7F;
    border-radius:5px;
    border:0;
    cursor:pointer;
@@ -357,5 +350,5 @@ p {
    margin-top:-4px;
    font-weight:700;
  }
- [type="submit"]:hover { background:#CC4949; }
+ [type="submit"]:hover { background:#DCA1A1; }
 
