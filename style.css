@@ -23,6 +23,7 @@ body {
 
 a {
    text-decoration: none;
+   color: inherit;
 }
  
 .header {
@@ -184,14 +185,13 @@ p {
     text-align: center;
 }
  
- .icon .box {
-    background-color: white;
-    border: 3px solid #D4AF37;
-    height: 200px;
-    width: 160px;
-    border-radius: 12px;
-    margin-bottom: -35px;
- }
+.icon .box {
+   background-color: white;
+   border: 3px solid #D4AF37;
+   height: 200px;
+   width: 160px;
+   border-radius: 12px;
+}
  
 .third-row {
    display: flex;
