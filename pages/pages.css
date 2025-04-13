@@ -1,0 +1,71 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: #253d2c;
+    color: #f9faf8;
+    padding: 10px;
+    border-bottom: 3px solid #BE5103;
+    text-align: center;
+    font-size: 24px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    background-image: url('../images/pexels-polilla68-1172737.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: merriweather;
+}
+
+.info {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    padding: 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #253d2c;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 auto;;
+ }
+ 
+ .footer-text {
+    font-size: x-small;
+    padding: 10px;
+ }
+
