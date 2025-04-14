@@ -55,6 +55,32 @@ body {
     height: 400px;
 }
 
+.handyman-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    background-image: url('../images/handyman-page.jpg');
+    background-size: cover;
+    background-position: bottom;
+    font-family: merriweather;
+    height: 400px;
+}
+
+.washer-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    background-image: url('../images/pressure-washer.jpg');
+    background-size: cover;
+    background-position: bottom;
+    font-family: merriweather;
+    height: 400px;
+}
+
 .info {
     font-size: 30px;
     width: 100%;
