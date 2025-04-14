@@ -38,8 +38,8 @@ body {
     background-image: url('../images/pexels-polilla68-1172737.jpg');
     background-size: cover;
     background-position: center;
-    height: 40vh;
     font-family: merriweather;
+    height: 400px;
 }
 
 .info {
@@ -47,7 +47,7 @@ body {
     width: 100%;
     margin-top: 20px;
     text-align: center;
-    padding: 100px;
+    padding: 20px;
 }
 
 ul {
