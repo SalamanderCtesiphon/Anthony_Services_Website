@@ -42,6 +42,19 @@ body {
     height: 400px;
 }
 
+.courier-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    background-image: url('../images/courier-page.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: merriweather;
+    height: 400px;
+}
+
 .info {
     font-size: 30px;
     width: 100%;
